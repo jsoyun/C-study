@@ -3,7 +3,7 @@
 player::player()
 {
 	_hp = 100;
-	_atk = 10;
+	_atk = 10;¤¾¤°¤°
 }
 
 player::~player()
