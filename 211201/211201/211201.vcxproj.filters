@@ -15,12 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="consoleMain.h">
+    <ClInclude Include="vectorTest.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="listTest.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="vectorTest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="consoleMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="listTest.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
