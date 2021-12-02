@@ -18,18 +18,24 @@
     <ClCompile Include="consoleMain.cpp">
       <Filter>리소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="exchange.cpp">
+    <ClCompile Include="exChange.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="mainGame.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="wallet.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="exchange.h">
+    <ClInclude Include="exChange.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="mainGame.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="wallet.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

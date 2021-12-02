@@ -26,7 +26,7 @@ public:
 	float change;
 };
 
-class exchange
+class exChange
 {
 private:
 	//코인정보가 담긴 클래스를 담을 백터 컨테이너
@@ -35,12 +35,12 @@ private:
 	vector<tagCoinInfo>::iterator	_viCoin;
 
 public:
-	void conSetup();
+	void coinSetup();
 	void coinOutput(int coinNum);
 
 	vector<tagCoinInfo> getCoinVector() { return _vCoin; }
 
-	exchange();
-	~exchange();
+	exChange();
+	~exChange();
 };
 

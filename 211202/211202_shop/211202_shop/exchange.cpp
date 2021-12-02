@@ -1,15 +1,15 @@
-#include "exchange.h"
+#include "exChange.h"
 
-exchange::exchange()
+exChange::exChange()
 {
 }
 
-exchange::~exchange()
+exChange::~exChange()
 {
 }
 
 
-void exchange::conSetup()
+void exChange::coinSetup()
 {
 	tagCoinInfo coin1;
 	coin1.coinKind = COIN_BIT;
@@ -18,7 +18,7 @@ void exchange::conSetup()
 	coin1.price = 68250;
 	coin1.change = -1.68f;
 
-	_vCoin.push_back(coin1);
+	_vCoin.push_back(coin1); 
 
 	tagCoinInfo coin2;
 	coin2.coinKind = COIN_BIT;
@@ -103,7 +103,7 @@ void exchange::conSetup()
 
 }
 
-void exchange::coinOutput(int coinNum)
+void exChange::coinOutput(int coinNum)
 {
 	for (_viCoin = _vCoin.begin(); _viCoin != _vCoin.end(); ++_viCoin)
 	{

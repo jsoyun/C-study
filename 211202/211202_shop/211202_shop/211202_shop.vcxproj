@@ -140,12 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="consoleMain.cpp" />
-    <ClCompile Include="exchange.cpp" />
+    <ClCompile Include="exChange.cpp" />
     <ClCompile Include="mainGame.cpp" />
+    <ClCompile Include="wallet.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="exchange.h" />
+    <ClInclude Include="exChange.h" />
     <ClInclude Include="mainGame.h" />
+    <ClInclude Include="wallet.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
